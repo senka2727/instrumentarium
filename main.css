@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body {
+    background-image:  url(5c013319dece116764af9d39.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Pangolin', cursive;
+}
+.name {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+}
+.name p {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Train One', cursive;
+    color: #808000;
+}
+.main {
+    width: 75%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 400px;
+    background-color: #313131;
+    flex-direction: column;
+}
+.description {
+    width: 95%;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 15px;
+    padding-left: 5px;
+    color: #f500f5;
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+.links {
+    width: 95%;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 15px;
+    padding-left: 0px;
+    color: #f500f5;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.links a {
+    outline: none;
+    color: #71bff0;
+    text-decoration: none;
+    text-align: center;
+    /* border-radius: 15px; */
+}
+.links .frst {
+    outline: none;
+    color: #71bff0;
+    text-decoration: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.links .last {
+    outline: none;
+    color: #71bff0;
+    text-decoration: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.links a:hover {
+    outline: none;
+    background-color: #223b4b;
+    text-decoration: none;
+}
+.links a:visited {
+    color: #71bff0;
+    text-decoration: none;
+}
+.asection, .bsection, .csection, .dsection {
+    width: 95%;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 15px;
+    padding-left: 0px;
+    color: #f500f5;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.asection a, .bsection a, .csection a, .dsection a {
+    outline: none;
+    color: #71bff0;
+    text-decoration: none;
+    text-align: center;
+    /* border-radius: 15px; */
+}
+.asection .frst, .bsection .frst, .csection .frst, .dsection .frst {
+    outline: none;
+    color: #71bff0;
+    text-decoration: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.asection .last, .bsection .last, .csection .last, .dsection .last {
+    outline: none;
+    color: #71bff0;
+    text-decoration: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.asection a:hover, .bsection a:hover, .csection a:hover, .dsection a:hover {
+    outline: none;
+    background-color: #223b4b;
+    text-decoration: none;
+}
+.asection a:visited, .bsection a:visited, .csection a:visited, .dsection a:visited {
+    color: #71bff0;
+    text-decoration: none;
+}
+.name_mini {
+    font-size: 25px;
+    color: #71bff0;
+    text-align: center;
+}
